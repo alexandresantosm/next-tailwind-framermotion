@@ -10,11 +10,11 @@ const Header: React.FC = () => {
         <NavLink href="/nextjs" description="Next.js" />
 
         <NavLink href="/tailwind" description="Tailwind" />
-        
+
         <NavLink href="/framermotion" description="Framer Motion" />
       </nav>
     </header>
   );
-}
+};
 
 export default Header;

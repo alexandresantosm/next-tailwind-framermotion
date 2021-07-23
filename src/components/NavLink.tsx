@@ -7,10 +7,10 @@ interface NavLinkProps {
 
 const NavLink: React.FC<NavLinkProps> = ({ href, description }) => {
   return (
-    <Link  href={href}>
+    <Link href={href}>
       <a className="tracking-wide hover:text-gray-300">{description}</a>
     </Link>
   );
-}
+};
 
 export default NavLink;
